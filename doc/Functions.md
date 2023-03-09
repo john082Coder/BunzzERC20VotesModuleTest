@@ -1,7 +1,7 @@
 # WRITE(main)
 
 ## aprove
-Gives an certain address permision to move tokens for the token owner
+Gives an certain address permission to move tokens for the token owner
 
 |Name|Type|Description|Example|Default|
 |--- |---|---|---|---|
@@ -9,7 +9,7 @@ Gives an certain address permision to move tokens for the token owner
 |amount|uint256|The amount of the tokens the spender is approved to spend||N/A|
 
 ## increaseAllowance
-Increase an certain address permision to move tokens for the token owner
+Increase an certain address permission to move tokens for the token owner
 
 |Name|Type|Description|Example|Default|
 |--- |---|---|---|---|
@@ -17,7 +17,7 @@ Increase an certain address permision to move tokens for the token owner
 |addedValue|uint256|The value that will be added to the spender approval||N/A|
 
 ## decreaseAllowance
-Decrease an certain address permision to move tokens for the token owner
+Decrease an certain address permission to move tokens for the token owner
 
 |Name|Type|Description|Example|Default|
 |--- |---|---|---|---|
