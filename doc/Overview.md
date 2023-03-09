@@ -31,4 +31,4 @@ And of course, snapshotting (checkpointing) is necessary to prevent double votin
 
 ---
 ## Review report
-- [JCoder's report](https://docs.google.com/document/d/109pSvqNu3da9XQjGtpCBWFm_OPME4bx14s4clwGq15c/edit?usp=sharing)
+- [JCoder's report](https://docs.google.com/document/d/1dG83T5-PFgcDAB3SnCAqH74jbK8mpUPUA8nHZXldJB4/edit?usp=sharing)
