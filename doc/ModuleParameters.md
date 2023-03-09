@@ -1,4 +1,6 @@
 |Name|Type|Description|Example|Default|
 |--- |---|---|---|---|
-|uri_|string|Provides an base uri for your nft token|[]|N/A|
+|name|string|Provides an unique name for your token|[]|N/A|
+|symbol|string|Provides an unique identifier for your token|[]|N/A|
+
 

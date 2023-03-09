@@ -10,6 +10,8 @@ Delegation means an address can loan their voting power to another address witho
 
 - ERC20 Votes does not actually handle conducting the poll, it’s still a regular ERC20 token with snapshot and delegated voting abilities. Voting is usually handled by governance contracts.
 - Unlike ERC20 Snapshot, it does not keep snapshots of the token balances, but keeps snapshots of the voting power of the addresses.
+- This extension keeps a history (checkpoints) of each account's vote power. Vote power can be delegated either by calling the {delegate}function directly, or by providing a signature to be used with {delegateBySig}. Voting power can be queried through the public accessors {getVotes} and {getPastVotes}.
+- By default, token balance does not account for voting power.
 
 
 ## Use case
@@ -24,7 +26,7 @@ And of course, snapshotting (checkpointing) is necessary to prevent double votin
 - github repo URL
     https://github.com/john082Coder/BunzzERC20VotesModuleTest
 - simple dapp URL
-    https://bunzz-erc-1155-d-module-test.vercel.app/
+    https://bunzz-erc-20-votes-module-test.vercel.app/
 
 
 ---

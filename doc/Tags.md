@@ -1,2 +1,2 @@
-mint, mintSingle, mintBatch, burnBatch
+delegate, votes
 

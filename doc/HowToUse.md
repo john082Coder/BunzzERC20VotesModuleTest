@@ -1,14 +1,13 @@
 ## Preparation before deployment
-1. Developer your own NFT contract which will use ERC1155D.
+1. Develop your own token contract which will use ERC20Votes.
 
 ## Get started(Operation)
 
 
-1. Deploy your own NFT contract.
-2. Set base URI of NFT by passing params.
-4. You can mint nft with some data by calling `_mint`, and mint nft without data by calling `_mintSingle` function.
-5. You can mint several nfts with data by calling `_mintBatch` function.
-
+1. Deploy your own token contract.
+2. You can mint tokens by calling `_mint` function.
+3. You can delegate voting power to another address by calling `delegate` function or `delegateBySig` function.
+4. You can check voting power by calling `getVotes` and `getPastVotes` functions.
 
 
 
