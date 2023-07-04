@@ -46,7 +46,7 @@ The function delegateBySig allows for a user to delegate voting power through a 
 
 
 ## transferFrom
-Transfer a particular amount of tokens from the tokens owner to an certai address if the caller have the permision to transfer it
+Transfer a particular amount of tokens from the tokens owner to an certai address if the caller have the permission to transfer it
 
 |Name|Type|Description|Example|Default|
 |--- |---|---|---|---|
